@@ -5,7 +5,7 @@ typedef long long  ll;
 ll gcd(ll m, ll n) {
    if ((m % n) == 0)
       return n;
-   else
+   else 
       return gcd(n, m % n); 
 }
 
