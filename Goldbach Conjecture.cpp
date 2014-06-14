@@ -9,7 +9,7 @@ int primes[MAX];
 void gen_primes()
      {
 
-       for(int i=0;i<MAX;i++) primes[i] = 1;
+       for(int i=0;i<MAX;i++) primes[i] = 1; 
 
        int sq=(int)sqrt(MAX);
        primes[0]=primes[1]=0;
