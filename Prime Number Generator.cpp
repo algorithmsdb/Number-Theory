@@ -16,7 +16,7 @@ void gen_primes()
          if (primes[i]==1)
            for(int j=i;j*i<MAX;j++)
                 primes[i*j] = 0;
-     }
+     } 
 
 int main()
 {
