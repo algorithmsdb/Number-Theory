@@ -6,7 +6,7 @@ ll gcd(ll m, ll n) {
    if ((m % n) == 0)
       return n;
    else
-      return gcd(n, m % n);
+      return gcd(n, m % n); 
 }
 
 int main()
