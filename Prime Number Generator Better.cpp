@@ -10,7 +10,7 @@ long ind=0;
 
 unsigned flag[MAX/64];
 #define ifc(x) (flag[x>>6]&(1<<((x>>1)&31)))
-#define isc(x) (flag[x>>6]|=(1<<((x>>1)&31)))
+#define isc(x) (flag[x>>6]|=(1<<((x>>1)&31))) 
 
 
 void gen_primes()
