@@ -13,7 +13,7 @@ unsigned flag[MAX/64];
 #define isc(x) (flag[x>>6]|=(1<<((x>>1)&31)))
 
 
-void gen_primes()
+void gen_primes() 
      {
 
        int sq=3200,k;
