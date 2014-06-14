@@ -6,7 +6,7 @@ ull sumofdivisors(int n)
        /***********dont write this statement after this comment, it causes tle****************///int sq=(ull)(long long)sqrt(n);
        ull ans,temp;
        ans=1;
-       int exp;
+       int exp; 
        for(int i=2;i*i<=n;i++)
        {
         exp=0;
