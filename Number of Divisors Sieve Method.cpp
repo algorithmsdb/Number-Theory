@@ -14,6 +14,6 @@ for(int i=1;i<=MAX;i++)
         }
     }
 
-for(int i=1;i<=20;i++) cout<<numdiv[i]<<"\n";
+for(int i=1;i<=20;i++) cout<<i<<" -> "<<numdiv[i]<<"\n";
 
 }
