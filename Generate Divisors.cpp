@@ -4,7 +4,7 @@ using namespace std;
 void divisors(int n)
 {
     int i=1;
-    int sq=(int)(ceil(sqrt(n)));
+    int sq=(int)(ceil(sqrt(n))); 
     set<int> ms;
     while(i < sq)
         {
