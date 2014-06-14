@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+
 #define MAX 1000001
 int totient[MAX+10];
 
@@ -24,10 +25,7 @@ void euler_totient()
             totient[i]--;
             }
         }
-
-
     }
-
 
 int main()
 {
