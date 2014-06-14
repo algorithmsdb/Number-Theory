@@ -13,7 +13,7 @@ ull mulmod(ull a,ull b,ull c){
         b /= 2;
     }
     return x%c;
-}
+} 
 
 
 /* This function calculates (a^b)%c */
