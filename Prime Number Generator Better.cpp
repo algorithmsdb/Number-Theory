@@ -4,7 +4,7 @@ using namespace std;
 //5761455
 #define MAX 100000000  // 10^8
 
-long foundprimes[5761455];
+long foundprimes[5761455]; 
 long ind=0;
 
 
