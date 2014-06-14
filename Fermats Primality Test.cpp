@@ -1,5 +1,5 @@
 #include<bits/stdc++.h>
-using namespace std; 
+using namespace std;  
 typedef unsigned long long ull;
 
 /* this function calculates (a*b)%c taking into account that a*b might overflow */
