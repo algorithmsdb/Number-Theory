@@ -11,7 +11,7 @@ void sieve()
 
             for(int j=2*i;j<=MAX;j+=i)
                     {
-                    if(arr[j]==0) arr[j]=i;
+                    if(arr[j]==0) arr[j]=i; 
                     }
         }
     }
